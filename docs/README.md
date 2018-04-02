@@ -3,5 +3,6 @@ Document
 
 ### Components
 
-* [TableVirtualized](TableVirtualized.md)
-* [TableVirtualizedCustom](TableVirtualizedCustom.md)
+* [TableVirtualized](tables/TableVirtualized.md)
+  * [createTableWidthManager](tables/createTableWidthManager.md)
+* [TableVirtualizedCustom](tables/TableVirtualizedCustom.md)

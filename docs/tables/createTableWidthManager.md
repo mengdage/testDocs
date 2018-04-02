@@ -10,7 +10,7 @@ The `createTableWidthManager` returns a `table width manager` which help micmic 
 | columnCount | number | ✓ | | Number of columns. |
 | growFactors | number or [number] | ✓ | | Like flex-grow. [learn more](#factors)|
 | shrinkFactors | number or [number] | ✓ | | Like flex-shrink. [learn more](#factors)|
-| mode | string | ✓| | Specify how column widths are calculated. |
+| mode | string | ✓| | Specify how column widths are calculated. [learn more](#mode)|
 | tableWidth | number| | 0 | Width of the table. |
 
 ### Widths
