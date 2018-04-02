@@ -22,17 +22,17 @@ The table consists of four parts.
 | growFactors | number or [number] | | 1 | Kind of like the flex-grow for flexbox. If a number, it'll be applied for all columns; if an array of number, it must have the same length as the `dataColumnWidth`.|
 | headerRowHeight | number | | 40 | Height of the header row.|
 | id | string | | TableVirtualized | The id of the root element.|
-| indicatorBodyChange | any | | | [learn more](#Indicators) |
-| indicatorHeaderChange | any | | | [learn more](#Indicators) |
-| indicatorTableChange | any | | | [learn more](#Indicators) |
+| indicatorBodyChange | any | | | [learn more](#indicators) |
+| indicatorHeaderChange | any | | | [learn more](#indicators) |
+| indicatorTableChange | any | | | [learn more](#indicators) |
 | minVisibleRowCount | number | | 2 | |
 | nameColumnWidth | number | | 200 | Width of the name column. |
 | overscanColumnCount | number | | 0 | |
 | overscanRowCount | number | | 5 | |
-| renderDataBodyCell | function | | | Responsible for rendering a cell of DataBody given an row and column index. [learn more](#Renderers)|
-| renderDataHeaderCell | function | | | Responsible for rendering a cell of DataHeader given an row and column index. [learn more](#Renderers)|
-| renderNameBodyCell | function | | | Responsible for rendering a cell of NameBody given an row and column index. [learn more](#Renderers)|
-| renderNameHeaderCell | function | | | Responsible for rendering a cell of NameBody given an row and column index. [learn more](#Renderers)|
+| renderDataBodyCell | function | | | Responsible for rendering a cell of DataBody given an row and column index. [learn more](#renderers)|
+| renderDataHeaderCell | function | | | Responsible for rendering a cell of DataHeader given an row and column index. [learn more](#renderers)|
+| renderNameBodyCell | function | | | Responsible for rendering a cell of NameBody given an row and column index. [learn more](#renderers)|
+| renderNameHeaderCell | function | | | Responsible for rendering a cell of NameBody given an row and column index. [learn more](#renderers)|
 | scaleColumnWidthMode | string | | AUTO | Specify how to calculate the column widths. |
 | shrinkFactors | number or [number] | | 1 | Kind of like the flex-shrink for flexbox. If a number, it'll be applied for all columns; if an array of number, it must have the same length as the `dataColumnWidth`. |
 
